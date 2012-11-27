@@ -27,3 +27,7 @@
 
 %% log( sqrt(2 * pi) )
 -define(M_LN_SQRT_2_PI, 0.9189385332046727417803297364056176398613974736377834128171).
+
+%% The biggest 'small integer' (60 bits).
+%% http://www.erlang.org/doc/efficiency_guide/advanced.html
+-define(MAX64, 576460752303423488).
