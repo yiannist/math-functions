@@ -633,7 +633,7 @@ bd0(X, NP) ->
                  bd0__go(VV, 1, EJ0 * VV, S0)
     end.
 
--spec bd0__go(float(), float(), float(), float()) -> float().                     
+-spec bd0__go(float(), pos_integer(), float(), float()) -> float().
 bd0__go(VV, J, EJ, S) ->
     S2 = S + EJ / (2 * J + 1), 
     case S2 == S of
